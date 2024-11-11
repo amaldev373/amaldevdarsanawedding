@@ -81,7 +81,7 @@ const WeddingDetails = ({ timeLineRef }) => {
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: false }}
             transition={{ type: "spring", stiffness: 20 }}
-            className="imgTitleContainer text-5xl font-greatVibes text-gradient p-2"
+            className="imgTitleContainer text-4xl font-Poppins text-blue p-2"
           >
             Thaalikettu
           </motion.div>
@@ -90,7 +90,7 @@ const WeddingDetails = ({ timeLineRef }) => {
             whileInView={{ x: 0, scale: 1, opacity: 1 }}
             viewport={{ once: false }}
             transition={{ type: "spring", stiffness: 20 }}
-            className="imgIntroParaDiv sm:text-2xl lg:text-3xl font-dancingScript text-justify text-graylight sm:p-2  py-5"
+            className="imgIntroParaDiv sm:text-3xl lg:text-4xl font-greatVibes text-justify text-graylight sm:p-2  py-5"
           >
             We joyfully invite you to witness the cherished moment of
             Thaalikettu in our wedding ceremony, a poignant symbol of our
@@ -187,7 +187,7 @@ const WeddingDetails = ({ timeLineRef }) => {
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: false }}
             transition={{ type: "spring", stiffness: 20 }}
-            className="imgTitleContainer text-5xl font-greatVibes text-gradient p-2"
+            className="imgTitleContainer text-4xl font-Poppins text-blue p-2"
           >
             Reception
           </motion.div>

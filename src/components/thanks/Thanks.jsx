@@ -70,8 +70,8 @@ const Thanks = () => {
           grateful for your well-wishes and blessings
           <div className="w-full flex ">
             <span className="flex flex-col sm:pt-4 lg:pt-7 text-black font-greatVibes">
-              <span>With love and gratitude,</span>
-              <span>Dibin & Aji</span>
+              <span>With gratitude,</span>
+              <span>AmalDev & Darsana</span>
             </span>
           </div>
         </motion.div>

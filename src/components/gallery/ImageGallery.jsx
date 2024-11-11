@@ -45,7 +45,7 @@ const ImageGallery = ({galleryRef}) => {
       <div ref={galleryRef} className="mainImgDiv max-w-7xl mx-auto sm:px-2 lg:px-0 flex flex-col items-center">
         <div className="imgTextContainer flex sm:flex-col lg:flex-row w-full items-center sm:justify-center">
           <motion.div
-            className="imgTitleContainer text-6xl font-greatVibes text-gradient p-2"
+            className="imgTitleContainer text-4xl font-Poppins text-blue p-2"
             variants={titleVariants}
           >
             ImageGallery

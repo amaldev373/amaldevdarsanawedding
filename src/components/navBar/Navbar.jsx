@@ -21,7 +21,7 @@ const Navbar = ({ sectionRefs }) => {
         {/* Logo Section */}
         <div className="text-xl font-bold text-gray-800">
           <a href="/" className="flex items-center">
-            <span className="text-gray-700 text-5xl font-greatVibes">
+            <span className="text-cornflowerblue text-5xl font-greatVibes">
               Welcome
             </span>
           </a>

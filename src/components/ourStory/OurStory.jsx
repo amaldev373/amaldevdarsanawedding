@@ -9,7 +9,7 @@ const OurStory = ({ storiesRef }) => {
           className="heading-container flex flex-col items-center justify-center"
         >
           <motion.h2
-            className="sm:text-4xl lg:text-5xl font-Poppins text-gradient py-2 text-darkblue mb-4 "
+            className="sm:text-4xl lg:text-5xl font-Poppins text-blue py-2 mb-4 "
             initial={{ y: 250, scale: 2, opacity: 0 }}
             whileInView={{ y: 0, scale: 1, opacity: 1 }}
             viewport={{ once: true }}

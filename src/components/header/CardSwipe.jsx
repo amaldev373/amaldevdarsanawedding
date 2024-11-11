@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 
-import image1 from "../../assets/heroGallery/1dibin.jpeg";
+import image1 from "../../assets/heroGallery/1dibin.jpg";
 
-import image3 from "../../assets/heroGallery/3dibin.jpg";
-import image4 from "../../assets/heroGallery/2dibin.jpg";
-import image5 from "../../assets/heroGallery/1dibin.jpeg";
+import image3 from "../../assets/heroGallery/2dibin.jpeg";
+import image4 from "../../assets/heroGallery/3dibin.jpg";
+import image5 from "../../assets/heroGallery/1dibin.jpg";
 
 const CardSwipe = () => {
   const cardData = [

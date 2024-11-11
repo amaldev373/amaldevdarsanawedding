@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import square1 from "../../assets/photoGallery/gs1.webp";
-import square2 from "../../assets/photoGallery/gs2.webp";
-import square3 from "../../assets/photoGallery/gs3.webp";
-import square4 from "../../assets/photoGallery/gs4.webp";
+import square1 from "../../assets/photoGallery/gs1.jpg";
+import square2 from "../../assets/photoGallery/gs2.jpg";
+import square3 from "../../assets/photoGallery/gs3.jpg";
+import square4 from "../../assets/photoGallery/gs4.jpg";
 
-
-import wide1 from "../../assets/photoGallery/gL3.webp";
-import wide2 from "../../assets/photoGallery/gL4.webp";
-import wide3 from "../../assets/photoGallery/gL1.webp";
-import wide4 from "../../assets/photoGallery/gL2.webp";
+import wide1 from "../../assets/photoGallery/gL3.jpg";
+import wide2 from "../../assets/photoGallery/gL4.jpeg";
+import wide3 from "../../assets/photoGallery/gL1.jpg";
+import wide4 from "../../assets/photoGallery/gL2.jpeg";
 
 const images = [
   { src: square1, type: "square", name: "square1" },

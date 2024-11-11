@@ -9,7 +9,7 @@ const OurStory = ({ storiesRef }) => {
           className="heading-container flex flex-col items-center justify-center"
         >
           <motion.h2
-            className="sm:text-5xl lg:text-7xl font-greatVibes text-gradient py-2 text-darkblue mb-4 "
+            className="sm:text-4xl lg:text-5xl font-Poppins text-gradient py-2 text-darkblue mb-4 "
             initial={{ y: 250, scale: 2, opacity: 0 }}
             whileInView={{ y: 0, scale: 1, opacity: 1 }}
             viewport={{ once: true }}
@@ -21,7 +21,7 @@ const OurStory = ({ storiesRef }) => {
         </div>
         <motion.p
           // This will be tracked for visibility
-          className=" sm:text-2xl md:text-3xl lg:text-4xl text-graylight text-justify sm:px-1 font-dancingScript mb-8 tracking-wide"
+          className=" sm:text-3xl md:text-4xl lg:text-4xl text-graylight text-justify sm:px-1 font-greatVibes mb-8 tracking-wide"
           initial={{ x: -250, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: false }}
@@ -29,12 +29,12 @@ const OurStory = ({ storiesRef }) => {
         >
           We are beyond excited to celebrate our love and joy with all of you!
           As we take the next step in our journey together, we invite you to
-          join us for two very special occasions – our engagement and wedding.
+          join us for two very special occasions – our Wedding & Reception.
         </motion.p>
 
         <motion.p
           // Track visibility for the second paragraph
-          className="sm:text-2xl md:text-3xl lg:text-4xl text-graylight text-justify sm:px-1 font-dancingScript mb-8 tracking-wide"
+          className="sm:text-3xl md:text-4xl lg:text-4xl text-graylight text-justify sm:px-1 font-greatVibes mb-8 tracking-wide"
           initial={{ x: 250, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: false }}
@@ -42,7 +42,7 @@ const OurStory = ({ storiesRef }) => {
         >
           Please save the dates, explore the details so that we can create
           beautiful memories together. Thank you for your love, support, and
-          presence in our lives. We can’t wait to see you!
+          presence in our lives.
         </motion.p>
       </div>
     </section>

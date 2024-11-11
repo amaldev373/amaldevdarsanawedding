@@ -6,10 +6,10 @@ import { FaLocationDot, FaMapLocation } from "react-icons/fa6";
 
 const WeddingDetails = ({ timeLineRef }) => {
   const engageUrl =
-    "https://www.google.com/maps/place/St.+George+Syro-Malabar+Church/@10.102177,76.27637,16z/data=!4m6!3m5!1s0x3b080e2b64dc93a1:0x154f48a305454d22!8m2!3d10.1021769!4d76.2763703!16s%2Fg%2F1vvdsn6g?hl=en&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D";
+    "https://www.google.com/maps/place/Perumpadappu+Sri+Subramanya+Temple/@9.905668,76.280532,2616m/data=!3m1!1e3!4m6!3m5!1s0x3b08720d0fe4254d:0x949e8db849feb3d0!8m2!3d9.9056683!4d76.2805321!16s%2Fg%2F1tf9r7sn?hl=en&entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D";
   const recpUrl =
-    "https://www.google.com/maps/place/Kbees+Durbar+convention+centre/@10.226715,76.205518,16z/data=!4m6!3m5!1s0x3b081b8c145507b1:0xe1f143c6fa7d91cf!8m2!3d10.2267148!4d76.2055182!16s%2Fg%2F11cm120y2r?hl=en&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D";
-  const weddingDate = new Date("2024-11-10T11:30:00").getTime();
+  'https://www.google.com/maps/place/ZION+Parish+Hall/@10.166976,76.353774,2614m/data=!3m1!1e3!4m6!3m5!1s0x3b0805e5d7cd716f:0x2655a0a7f3ee7879!8m2!3d10.1669756!4d76.3537738!16s%2Fg%2F11c1m7l_dw?hl=en&entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D'
+  const weddingDate = new Date("2024-11-17T18:00:00").getTime();
   const [timeLeftWedding, setTimeLeftWedding] = useState({
     days: 0,
     hours: 0,
@@ -17,7 +17,7 @@ const WeddingDetails = ({ timeLineRef }) => {
     seconds: 0,
   });
 
-  const engagementDate = new Date("2024-11-03T11:30:00").getTime();
+  const engagementDate = new Date("2024-11-17T09:30:00").getTime();
   const [timeLeftEngagement, setTimeLeftEngagement] = useState({
     days: 0,
     hours: 0,
@@ -83,7 +83,7 @@ const WeddingDetails = ({ timeLineRef }) => {
             transition={{ type: "spring", stiffness: 20 }}
             className="imgTitleContainer text-5xl font-greatVibes text-gradient p-2"
           >
-            Engagement
+            Thaalikettu
           </motion.div>
           <motion.div
             initial={{ x: -250, scale: 2, opacity: 0 }}
@@ -92,35 +92,36 @@ const WeddingDetails = ({ timeLineRef }) => {
             transition={{ type: "spring", stiffness: 20 }}
             className="imgIntroParaDiv sm:text-2xl lg:text-3xl font-dancingScript text-justify text-graylight sm:p-2  py-5"
           >
-            The engagement ceremony will be a traditional ring exchange event,
-            held in the presence of close family and friends. The couple will
-            exchange rings, symbolizing their love and commitment, and marking
-            the formalization of their engagement. Surrounded by warm wishes and
-            blessings, this special moment will set the stage for their journey
-            together as they prepare for their wedding.
+            We joyfully invite you to witness the cherished moment of
+            Thaalikettu in our wedding ceremony, a poignant symbol of our
+            eternal bond. This sacred tradition,, marks the beginning of our
+            lifelong journey together. Set against a backdrop of traditional
+            music and familial blessings, this ritual underscores our commitment
+            and love. Join us as we unite in this beautiful celebration of unity
+            and affection.
           </motion.div>
           <div className="MapMainDiv w-full justify-between flex sm:flex-col lg:flex-row sm:pt-3 ">
             <div className="textContainerDiv flex flex-col sm:gap-5 lg:gap-10">
               <span className="sm:text-3xl lg:text-3xl font-semibold text-center">
-                St. George Syro-Malabar Church Hall
+                Perumpadappu Subramanya Temple
               </span>
               <span className="flex flex-col ">
                 <span className="date flex flex-row p-1 gap-2 items-center sm:text-xl lg:text-2xl font-normal">
                   <FaCalendarAlt size={25} />
-                  November 3rd 2024
+                  November 17th 2024
                 </span>
-                <span className="time pl-10 text-lg">11:00 am</span>
+                <span className="time pl-10 text-lg">09:30 am</span>
               </span>
               <span className="flex flex-col">
                 <span className="ExactLocation flex flex-row p-1 gap-2 items-center sm:text-lg lg:text-2xl font-normal">
-                  <FaLocationDot size={25} />Koonammavu - Panayikulam
-                  Rd, Kongorppilly
+                  <FaLocationDot size={25} />
+                  Palluruthy, Perumpadappu, Kochi, Kerala
                 </span>
                 <span className="phoneHeading pl-10">Event Address</span>
               </span>
               <span className="flex flex-col">
                 <span className="phoneNumber flex flex-row p-1 gap-2 items-center sm:text-lg lg:text-2xl font-normal">
-                  <FaPhoneAlt size={25} /> +91 98478 90365
+                  <FaPhoneAlt size={25} /> +91 9400905018
                 </span>
                 <span className="phoneHeading pl-10">Phone Number</span>
               </span>
@@ -139,7 +140,7 @@ const WeddingDetails = ({ timeLineRef }) => {
                 <div className="sm:hidden lg:block lg:pt-5">
                   <iframe
                     className="rounded-lg flex sm:w-full h-[300px] lg:w-[650px] lg:h-[450px]"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.962237318041!2d76.2763703!3d10.1021769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080e2b64dc93a1%3A0x154f48a305454d22!2sSt.%20George%20Syro-Malabar%20Church!5e0!3m2!1sen!2sin!4v1729434392978!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.3393548538675!2d76.2805321!3d9.9056683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08720d0fe4254d%3A0x949e8db849feb3d0!2sPerumpadappu%20Sri%20Subramanya%20Temple!5e0!3m2!1sen!2sin!4v1731318271428!5m2!1sen!2sin"
                     loading="lazy"
                   ></iframe>
                 </div>
@@ -188,7 +189,7 @@ const WeddingDetails = ({ timeLineRef }) => {
             transition={{ type: "spring", stiffness: 20 }}
             className="imgTitleContainer text-5xl font-greatVibes text-gradient p-2"
           >
-            Wedding
+            Reception
           </motion.div>
           <motion.div
             initial={{ y: 250, scale: 2, opacity: 0 }}
@@ -197,36 +198,36 @@ const WeddingDetails = ({ timeLineRef }) => {
             transition={{ type: "spring", stiffness: 20 }}
             className="imgIntroParaDiv sm:text-2xl lg:text-3xl font-dancingScript text-justify text-graylight sm:p-2  py-5"
           >
-            The wedding will be a beautiful evening ceremony, celebrated in the
-            presence of family and friends. As they tie the knot, their love and
-            commitment to one another will mark the beginning of their life
-            together. Surrounded by the warm glow of the evening, this cherished
-            moment will be filled with blessings, joy, and the heartfelt support
-            of their loved ones. The evening celebration will culminate in a
-            joyous union, setting the perfect tone for their new journey as
-            husband and wife.
+            We are delighted to extend this invitation to our wedding reception,
+            a celebration of love and new beginnings. Join us for an evening
+            filled with joy, laughter, and dancing as we start our new life
+            together. The reception promises a wonderful blend of delicious
+            food, delightful music, and heartwarming company. It's not just a
+            party; it's the first page of our life together. We look forward to
+            sharing this special occasion with you and creating memories that we
+            will cherish forever.
           </motion.div>
           <div className="MapMainDiv w-full justify-between flex sm:flex-col lg:flex-row sm:pt-2">
             <div className="textContainerDiv flex flex-col sm:gap-5 lg:gap-10">
               <span className="sm:text-3xl lg:text-3xl font-semibold text-center">
-                Kbees Durbar convention centre
+                ZION Parish Hall
               </span>
               <span className="flex flex-col ">
                 <span className="date flex flex-row p-1 gap-2 items-center sm:text-xl lg:text-2xl font-normal">
                   <FaCalendarAlt size={25} />
-                  10th November 2024
+                  17th November 2024
                 </span>
-                <span className="time pl-10 text-lg">05:00 pm - 08:00 pm</span>
+                <span className="time pl-10 text-lg">06:00 pm - 09:00 pm</span>
               </span>
               <span className="flex flex-col">
                 <span className="ExactLocation flex flex-row p-1 gap-2 items-center sm:text-lg lg:text-2xl font-normal">
-                  <FaLocationDot size={25} /> Near Pullut Bridge, Kodungallur
+                  <FaLocationDot size={25} /> KarakkattuKunnu, Mekkad, Angamaly
                 </span>
                 <span className="phoneHeading pl-10">Event Address</span>
               </span>
               <span className="flex flex-col">
                 <span className="phoneNumber flex flex-row p-1 gap-2 items-center sm:text-lg lg:text-2xl font-normal">
-                  <FaPhoneAlt size={25} /> +91 99955 70060
+                  <FaPhoneAlt size={25} /> +91 9400905018
                 </span>
                 <span className="phoneHeading pl-10">Phone Number</span>
               </span>
@@ -245,7 +246,7 @@ const WeddingDetails = ({ timeLineRef }) => {
                 <div className="sm:hidden lg:block lg:pt-5">
                   <iframe
                     className="rounded-lg flex sm:w-full h-[300px] lg:w-[650px] lg:h-[450px]"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.4318103416194!2d76.2055182!3d10.2267148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081b8c145507b1%3A0xe1f143c6fa7d91cf!2sKbees%20Durbar%20convention%20centre!5e0!3m2!1sen!2sin!4v1729433142101!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.1682515565108!2d76.3537738!3d10.1669756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0805e5d7cd716f%3A0x2655a0a7f3ee7879!2sZION%20Parish%20Hall!5e0!3m2!1sen!2sin!4v1731319415121!5m2!1sen!2sin"
                     loading="lazy"
                   ></iframe>
                 </div>

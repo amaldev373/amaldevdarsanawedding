@@ -1,9 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import CardSwipe from "./CardSwipe";
-const Hero = ({heroRef}) => {
+const Hero = ({ heroRef }) => {
   return (
-    <section ref={heroRef} className="mt-[80px] w-full overflow-hidden sm:pt-10 sm:pb-10 lg:pt-40 lg:pb-20">
+    <section
+      ref={heroRef}
+      className="mt-[80px] w-full overflow-hidden sm:pt-10 sm:pb-10 lg:pt-40 lg:pb-20"
+    >
       <div
         className={`main-conainer flex sm:flex-col lg:flex-row  bg-white text-black
       sm:p-0 md:px-20 xl:px:20  lg:px-2  lg:gap-3`}
@@ -17,19 +20,17 @@ const Hero = ({heroRef}) => {
               initial={{ x: -250, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
-              transition={{ type: "spring", stiffness: 30,}}
-            >
-             
-            </motion.div>
+              transition={{ type: "spring", stiffness: 30 }}
+            ></motion.div>
             <motion.div
-              initial={{ x: -250, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ y: 50, scale:0.5, opacity: 0 }}
+              whileInView={{ y: 0,scale:1, opacity: 1 }}
               viewport={{ once: false }}
-              transition={{ type: "spring", stiffness: 20, }}
+              transition={{ type: "spring", stiffness: 20 }}
             >
               <span>
-                <p className="text-xl md:text-2xl lg:3xl font-playwriteCuba">
-                 3rd & 10th November 2024
+                <p className=" p-2   border-r-white sm:text-3xl lg:text-3xl font-">
+                  AmalDev & Dharsana
                 </p>
               </span>
             </motion.div>
@@ -37,7 +38,20 @@ const Hero = ({heroRef}) => {
               initial={{ x: -250, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
-              transition={{ type: "spring", stiffness: 20,  }}
+              transition={{ type: "spring", stiffness: 20, delay:0.8 }}
+            >
+              <span>
+                <p className="text-xl md:text-2xl lg:3xl font-playwriteCuba">
+                  17th November 2024
+                </p>
+              </span>
+            </motion.div>
+
+            <motion.div
+              initial={{ x: -250, opacity: 0, }}
+              whileInView={{ x: 0, opacity: 1,}}
+              viewport={{ once: false }}
+              transition={{ type: "spring", stiffness: 20, delay:1.4 }}
             >
               <span>
                 <p className=" p-2   border-r-white sm:text-5xl lg:text-7xl font-greatVibes">
@@ -52,9 +66,9 @@ const Hero = ({heroRef}) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: false }}
-            transition={{  duration:2, }}
+            transition={{ duration: 2 }}
           >
-            <CardSwipe/>
+            <CardSwipe />
           </motion.div>
         </div>
       </div>

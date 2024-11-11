@@ -94,7 +94,8 @@ export default {
       serif: ["Merriweather", "serif"],
       greatVibes:['Great Vibes'],
       dancingScript:['Dancing Script'],
-      playwriteCuba:['Playwrite Cuba']
+      playwriteCuba:['Playwrite Cuba'],
+      Poppins:['Poppins']
     },
     extend: {
       scale: {

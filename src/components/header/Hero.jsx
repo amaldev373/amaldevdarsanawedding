@@ -30,7 +30,7 @@ const Hero = ({ heroRef }) => {
             >
               <span>
                 <p className=" p-2   border-r-white sm:text-3xl lg:text-3xl font-">
-                  AmalDev & Darsana
+                  Amaldev & Darsana
                 </p>
               </span>
             </motion.div>
@@ -55,7 +55,7 @@ const Hero = ({ heroRef }) => {
             >
               <span>
                 <p className=" p-2   border-r-white sm:text-5xl lg:text-7xl font-greatVibes">
-                  Save The Dates
+                  Save The Date
                 </p>
               </span>
             </motion.div>

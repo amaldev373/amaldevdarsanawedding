@@ -3,7 +3,6 @@ import Hero from "./components/header/Hero";
 import Navbar from "./components/navBar/Navbar";
 import OurStory from "./components/ourStory/OurStory";
 import ImageGallery from "./components/gallery/ImageGallery";
-import RouteMap from "./components/map/RouteMap";
 import Loader from "./components/loader/Loader";
 import Footer from "./components/footer/Footer";
 import WeddingDetails from "./components/timeLine/WeddingDetails";

@@ -113,7 +113,7 @@ const WeddingDetails = ({ timeLineRef }) => {
                   <FaCalendarAlt size={25} />
                   November 17th 2024
                 </span>
-                <span className="time pl-10 text-lg">09:30 am - 11:30 am</span>
+                <span className="time pl-10 text-lg">09:30 am - 10:30 am</span>
               </span>
               <span className="flex flex-col">
                 <span className="ExactLocation flex flex-row p-1 gap-2 items-center sm:text-lg lg:text-2xl font-normal">

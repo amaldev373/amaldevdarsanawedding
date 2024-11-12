@@ -29,7 +29,7 @@ const OurStory = ({ storiesRef }) => {
         >
           We are beyond excited to celebrate our love and joy with all of you!
           As we take the next step in our journey together, we invite you to
-          join us for two very special occasions – our Wedding & Reception.
+          join us for on our special occasion – our Wedding.
         </motion.p>
 
         <motion.p
@@ -40,7 +40,7 @@ const OurStory = ({ storiesRef }) => {
           viewport={{ once: false }}
           transition={{ type: "spring", stiffness: 30, delay: 0.8 }}
         >
-          Please save the dates, explore the details so that we can create
+          Please save the date, explore the details so that we can create
           beautiful memories together. Thank you for your love, support, and
           presence in our lives.
         </motion.p>

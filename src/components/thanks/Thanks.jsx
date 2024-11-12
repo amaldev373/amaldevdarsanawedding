@@ -41,7 +41,7 @@ const Thanks = () => {
         <div className="heading-container flex flex-col items-center justify-center">
           <motion.h2
             className="sm:text-5xl lg:text-7xl font-dancingScript text-darkblue mb-4 "
-            initial={{ x: 250,  opacity: 0 }}
+            initial={{ x: 250, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: false }}
             transition={{ type: "spring", stiffness: 20 }}
@@ -67,11 +67,11 @@ const Thanks = () => {
           thanks to all of you for your love, support, and encouragement. Your
           presence, whether near or far, means everything to us. We are excited
           to celebrate this milestone in our lives with you, and we are truly
-          grateful for your well-wishes and blessings
+          grateful for your well-wishes and blessings.
           <div className="w-full flex ">
             <span className="flex flex-col sm:pt-4 lg:pt-7 text-black font-greatVibes">
               <span>With gratitude,</span>
-              <span>AmalDev & Darsana</span>
+              <span>Amaldev & Darsana</span>
             </span>
           </div>
         </motion.div>

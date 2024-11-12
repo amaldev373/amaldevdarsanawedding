@@ -232,39 +232,6 @@ const WeddingDetails = ({ timeLineRef }) => {
           </div>
         </div>
 
- 
-        {/* Countdown */}
-        <div className="bg-cover text-black px-2">
-          <motion.div
-            className="mt-12 backdrop:blur-3xl"
-            initial={{ x: 50, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: false }}
-            transition={{ duration: 1.2, stiffness: 30, delay: 0.2 }}
-          >
-            <div className="sm:text-3xl lg:text-5xl text-center  font-dancingScript mb-6 backdrop-blur">
-              Don't Miss the Day !
-            </div>
-            <div className="flex justify-center sm:text-xl lg:gap-10 lg:text-5xl font-dancingScript space-x-8 text-">
-              <div className="flex flex-col gap-3">
-                <div className=" ">{timeLeftWedding.days}</div>
-                <div className=" font-Playfiar text-2xl">Days</div>
-              </div>
-              <div className="flex flex-col gap-3">
-                <div className="  ">{timeLeftWedding.hours}</div>
-                <div className=" font-Playfiar text-2xl">Hours</div>
-              </div>
-              <div className="flex flex-col gap-3">
-                <div className=" ">{timeLeftWedding.minutes}</div>
-                <div className=" font-Playfiar text-2xl">Mins</div>
-              </div>
-              <div className="flex flex-col gap-3">
-                <div className=" te">{timeLeftWedding.seconds}</div>
-                <div className=" font-Playfiar text-2xl">Secs</div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
       </div>
     </section>
   );
